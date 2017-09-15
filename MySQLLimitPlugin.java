@@ -15,7 +15,7 @@ import org.mybatis.generator.api.dom.xml.Attribute;
 import org.mybatis.generator.api.dom.xml.TextElement;
 import org.mybatis.generator.api.dom.xml.XmlElement;
  /**
-  * maven库失效，个人测试
+  * maven搴撳け鏁堬紝涓汉娴嬭瘯
   */
 public class MySQLLimitPlugin extends PluginAdapter {
 
@@ -25,7 +25,7 @@ public class MySQLLimitPlugin extends PluginAdapter {
 	}
 
 	/**
-	 * 为每个Example类添加limit和offset属性已经set、get方法
+	 * 涓烘瘡涓狤xample绫绘坊鍔爈imit鍜宱ffset灞炴�у凡缁弒et銆乬et鏂规硶
 	 */
 	@Override
 	public boolean modelExampleClassGenerated(TopLevelClass topLevelClass, IntrospectedTable introspectedTable) {
@@ -76,7 +76,7 @@ public class MySQLLimitPlugin extends PluginAdapter {
 	}
 
 	/**
-	 * 为Mapper.xml的selectByExample添加limit
+	 * 涓篗apper.xml鐨剆electByExample娣诲姞limit
 	 */
 	@Override
 	public boolean sqlMapSelectByExampleWithoutBLOBsElementGenerated(XmlElement element,
